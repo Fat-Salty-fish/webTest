@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="507a8eb7-5ef3-4869-b2e2-6cffb275b4e6" name="Default Changelist" comment="" />
+    <list default="true" id="507a8eb7-5ef3-4869-b2e2-6cffb275b4e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/SurveyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/SurveyService.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,15 +28,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/SurveyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="127">
+              <caret line="113" column="82" lean-forward="true" selection-start-line="113" selection-start-column="82" selection-end-line="113" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getOne#0;class#SurveyService#0" />
-                <element signature="method#getResult#0;class#SurveyService#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/BriefRecordRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/BriefRecordService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="24" column="77" lean-forward="true" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/BriefRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,6 +127,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -114,9 +170,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/StaffRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/StaffService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/surveyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/RecordService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/RecordRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/BriefRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/BriefRecordRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/BriefRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/BriefRecordService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/SurveyService.java" />
       </list>
     </option>
@@ -133,6 +193,9 @@
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -210,16 +273,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sinoyd" type="462c0819:PsiDirectoryNode" />
               <item name="survey" type="462c0819:PsiDirectoryNode" />
-              <item name="generateUrl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinoyd" type="462c0819:PsiDirectoryNode" />
-              <item name="survey" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -278,7 +331,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546073460808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546075746737" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -370,12 +423,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546043601370</updated>
-      <workItem from="1546043605173" duration="24974000" />
+      <workItem from="1546043605173" duration="27262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24974000" />
+    <option name="totallyTimeSpent" value="27262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -387,7 +440,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -399,7 +452,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14919356" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14939435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43817204" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -703,16 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/surveyController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -775,14 +818,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/BriefRecordRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/BriefRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="24" column="77" lean-forward="true" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/SurveyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="127">
+          <caret line="113" column="82" lean-forward="true" selection-start-line="113" selection-start-column="82" selection-end-line="113" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getOne#0;class#SurveyService#0" />
-            <element signature="method#getResult#0;class#SurveyService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/BriefRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

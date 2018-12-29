@@ -49,6 +49,9 @@ public class SurveyService {
     @Autowired
     private RecordService recordService;
 
+    @Autowired
+    private BriefRecordService briefRecordService;
+
 
     public void getSurveyByPage(PageBean pageBean, SurveyCriteria surveyCriteria){
         pageBean.setEntityName("Survey a");
@@ -56,7 +59,7 @@ public class SurveyService {
         commonRepository.findByPage(pageBean,surveyCriteria);
     }
 
-    public Survey getOne(Integer surveyId)
+    public Survey getOne(Integer surveyId)                                  //获取一套题目 包括题目和选项
     {
         Survey survey = surveyRepository.findOne(surveyId);                          //获取survey
         survey.setQuestions(new ArrayList<Question>());                         //设置survey下的question
@@ -86,7 +89,7 @@ public class SurveyService {
         return survey;
     }
 
-    public Object getResult(Map<String, Object> model)
+    public Object getResult(Map<String, Object> model)                      //员工答题并上交时候发生的操作
     {
         Staff staff = JSON.parseObject(JSON.toJSONString(model.get("staff")), new TypeReference<Staff>() {});
         staff = staffService.getOneByNo(staff.getStaffNo());
@@ -98,6 +101,7 @@ public class SurveyService {
         ArrayList<Question> questions = JSON.parseObject(JSON.toJSONString(model.get("questions")), new TypeReference<ArrayList<Question>>(){});
         String require = questionService.require(questions);
         if(require.equals("所有题目的选项得分加起来均为十分")){
+            briefRecordService.save(staff.getId(),(Integer.parseInt(noncestr.substring(0,1))));
             List<Record> records = new ArrayList<>();
             Map<String,Integer> capacity = codeContrastService.getContrastToMapForScore();          //计算总共的能力值
             for(Question eachQuestion:questions){
@@ -133,7 +137,7 @@ public class SurveyService {
     }
 
     public Object summary(){
-
+        List<BriefRecord> briefRecords = briefRecordService.getBriefRecord();
         return null;
     }
 }

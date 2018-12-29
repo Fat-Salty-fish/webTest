@@ -19,6 +19,7 @@ public class Record {
     @Id
     @GeneratedValue
     private Integer id;
+    private Integer briefId;
     private Integer staffId;
     private Integer surveyId;
     private Integer questionId;
