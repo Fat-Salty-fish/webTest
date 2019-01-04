@@ -18,6 +18,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MyToken {
+
+    private static final String TOKEN_KEY = "sinoyd";               //用这个StringKey来作为密文进行测试
+
     public static String createJWT(String userName,long ttlMillis) throws Exception {      //新建token 需要用户信息 比如用户名
         SignatureAlgorithm signatureAlgorithm = SignatureAlgorithm.HS256;            // 以及一个long型数来表示在多久以后token会失效
         long nowMillis = System.currentTimeMillis();                                //使用HS256加密
@@ -39,9 +42,8 @@ public class MyToken {
         return builder.compact();
     }
 
-    public  static SecretKey generateKey(){                         //生成秘钥key
-        String stringKey = "sinoyd";                        //用这个StringKey来作为密文进行测试
-        byte[] encodeKey = Base64.decodeBase64(stringKey);
+    public static SecretKey generateKey(){                         //生成秘钥key
+        byte[] encodeKey = Base64.decodeBase64( TOKEN_KEY );
         SecretKey key = new SecretKeySpec(encodeKey,0,encodeKey.length,"AES");//根据给定的字节数组使用AES加密算法构造一个密钥，使用 encodedKey中的始于且包含 0 到前 leng 个字节这是当然是所有。
         return key;
     }

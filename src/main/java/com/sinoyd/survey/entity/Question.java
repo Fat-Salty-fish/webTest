@@ -7,8 +7,11 @@ package com.sinoyd.survey.entity;
 import com.sinoyd.frame.base.entity.BaseEntity;
 import lombok.Data;
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
+
 @Entity
 @Table(name = "questions")
 @Data
@@ -30,5 +33,5 @@ public class Question implements BaseEntity {
     private Date createdTime;
 
     @Transient
-    private List<Option> options;
+    private List<Option> options = new ArrayList<>(0);
 }

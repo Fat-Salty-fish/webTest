@@ -7,15 +7,14 @@ package com.sinoyd.survey.entity;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Date;
+import java.util.Map;
 
 @Entity
 @Table(name = "brief")
 @Data
+
 public class BriefRecord {
     @Id
     @GeneratedValue
@@ -23,9 +22,24 @@ public class BriefRecord {
     private Integer staffId;
     private Integer surveyId;
     private Date    createdTime;
+    private Integer PL;
+    private Integer RI;
+    private Integer CO;
+    private Integer SH;
+    private Integer ME;
+    private Integer TW;
+    private Integer IM;
+    private Integer CF;
+    private Integer SP;
+    private String capacity;
+
+    @Transient
+    private Map<String,Integer> codeLevel;
 
     public BriefRecord(Integer staffId,Integer surveyId){
         this.setStaffId(staffId);
         this.setSurveyId(surveyId);
     }
+
+    public BriefRecord(){};
 }

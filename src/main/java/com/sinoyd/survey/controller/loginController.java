@@ -23,12 +23,9 @@ public class loginController {
 
     @PostMapping("login")
     public Object adminLogin(@RequestBody Admin admin) {
-        try
-        {
+        try {
             return adminService.login(admin);
-        }
-        catch (Exception e)
-        {
+        } catch (Exception e) {
             return "登录错误 请重新登录";
         }
     }

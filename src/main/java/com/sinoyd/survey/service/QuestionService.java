@@ -27,17 +27,16 @@ public class QuestionService {
         return questionRepository.getAllBySurveyId(id);
     }
 
-    public String require(List<Question> questions){
+    public String require(List<Question> questions) {
         StringBuilder builder = new StringBuilder();
-        for(Question eachQuestion:questions){
-            if(!optionService.equalToTen(eachQuestion.getOptions())){
+        for (Question eachQuestion : questions) {
+            if (!optionService.equalToTen(eachQuestion.getOptions())) {
                 builder.append(eachQuestion.getId()).append(",");
             }
         }
-        if(builder.toString().equals("")){
+        if (builder.toString().equals("")) {
             return "所有题目的选项得分加起来均为十分";
-        }
-        else{
+        } else {
             builder.append("题目的得分加起来不为十分,请重新选择");
             return builder.toString();
         }

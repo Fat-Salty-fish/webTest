@@ -30,6 +30,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //                .antMatchers(HttpMethod.GET, "/api/**").permitAll()//放行get接口
 //                .anyRequest().authenticated()  // 剩下的所有请求需要身份认证
                 .and().headers().frameOptions().disable()// 禁用x-frame 、
-                .and();
+                .and()
+        ;
     }
 }

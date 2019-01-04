@@ -17,8 +17,11 @@ public class RecordService {
     @Autowired
     private RecordRepository recordRepository;
 
-    public List<Record> saveRecord(List<Record> records)
-    {
-        return recordRepository.save(records);
+    public List<Record> saveRecord(List<Record> records) {
+        return (List<Record>) recordRepository.save(records);
+    }
+
+    public List<Record> findAll(){
+        return (List<Record>) recordRepository.findAll();
     }
 }
