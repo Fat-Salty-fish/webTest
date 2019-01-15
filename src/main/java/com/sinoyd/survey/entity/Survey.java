@@ -1,8 +1,3 @@
-/**
- * @Description   这个类主要描述了问卷信息 包括一个选项的list用来存放各个选项
- * @auther 李忠杰
- * @create 2018-12-29 8:37
- */
 package com.sinoyd.survey.entity;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
@@ -10,6 +5,11 @@ import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @Description   问卷信息类
+ * @auther 李忠杰
+ * @create 2018-12-29 8:37
+ */
 @Entity
 @Table(name = "surveys")
 @Data

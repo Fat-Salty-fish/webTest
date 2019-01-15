@@ -1,21 +1,17 @@
+package com.sinoyd.survey.service;
+import com.sinoyd.survey.entity.CodeContrast;
+import com.sinoyd.survey.repository.CodeContrastRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * @Description
  * @auther 李忠杰
  * @create 2018-12-29 9:59
  */
-package com.sinoyd.survey.service;
-
-import com.sinoyd.survey.entity.CodeContrast;
-import com.sinoyd.survey.repository.CodeContrastRepository;
-import org.aspectj.apache.bcel.classfile.Code;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 @Service
 public class CodeContrastService {
     @Autowired

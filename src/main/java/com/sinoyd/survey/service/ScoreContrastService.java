@@ -1,19 +1,17 @@
+package com.sinoyd.survey.service;
+import com.sinoyd.survey.entity.ScoreContrast;
+import com.sinoyd.survey.repository.ScoreContrastRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * @Description
  * @auther 李忠杰
  * @create 2019-01-02 10:55
  */
-package com.sinoyd.survey.service;
-
-import com.sinoyd.survey.entity.ScoreContrast;
-import com.sinoyd.survey.repository.ScoreContrastRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 @Service
 public class ScoreContrastService {
     @Autowired

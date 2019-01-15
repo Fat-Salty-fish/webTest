@@ -1,14 +1,12 @@
+package com.sinoyd.survey.entity;
+import lombok.Data;
+import javax.persistence.*;
+
 /**
- * @Description
+ * @Description 得分对照表 根据答题得分 对照表内信息 获取百分制下的得分
  * @auther 李忠杰
  * @create 2019-01-02 10:43
  */
-package com.sinoyd.survey.entity;
-
-import lombok.Data;
-
-import javax.persistence.*;
-
 @Entity
 @Table(name = "score_contrast")
 @Data

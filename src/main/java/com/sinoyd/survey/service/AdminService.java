@@ -1,17 +1,15 @@
-/**
- * @Description
- * @auther 李忠杰
- * @create 2018-12-27 13:46
- */
 package com.sinoyd.survey.service;
-
-
 import com.sinoyd.survey.entity.Admin;
 import com.sinoyd.survey.repository.AdminRepository;
 import com.sinoyd.survey.token.MyToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+/**
+ * @Description
+ * @auther 李忠杰
+ * @create 2018-12-27 13:46
+ */
 @Service
 public class AdminService {
     @Autowired

@@ -1,27 +1,23 @@
-/**
- * @Description
- * @auther 李忠杰
- * @create 2018-12-27 15:39
- */
 package com.sinoyd.survey.service;
-
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
 import com.sinoyd.frame.base.repository.CommonRepository;
 import com.sinoyd.frame.base.util.BaseCriteria;
 import com.sinoyd.frame.base.util.PageBean;
-
-import com.sinoyd.survey.criteria.SurveyCriteria;
 import com.sinoyd.survey.entity.*;
 import com.sinoyd.survey.repository.OptionRepository;
 import com.sinoyd.survey.repository.QuestionRepository;
 import com.sinoyd.survey.repository.SurveyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * @Description
+ * @auther 李忠杰
+ * @create 2018-12-27 15:39
+ */
 @Service
 public class SurveyService {
     @Autowired
@@ -76,7 +72,6 @@ public class SurveyService {
 //            question.setOptions(options.stream().filter(x -> x.getQuestionId().equals(question.getId())).collect(Collectors.toList()));
 //        }
 
-
         for (Option eachOption : options) {
             eachOption.setId(eachOption.getId() - eachOption.getId() / 10 * 10);
             eachOption.setCode((eachOption.getCodeId() != null) ? (contrastMap.get(eachOption.getCodeId()).getCode()) : "");
@@ -93,6 +88,7 @@ public class SurveyService {
                 }
             }
         }
+
         survey.setQuestions(questions);
         return survey;
     }
@@ -162,9 +158,11 @@ public class SurveyService {
                 info.setCapacity(this.levelContrast(score.getKey(), score.getValue(), HIGH_LEVEL_SCORE, MIDDLE_LEVEL_SCORE));
                 if(info.getCapacity().equals(2)){
                     capacityToSave.append(codeContrastList.stream().filter(codeContrast -> info.getCode().equals(codeContrast.getCode())).findFirst().get().getValue());
+                    capacityToSave.append(',');
                 }
                 acceptInfos.add(info);
             }
+            capacityToSave.deleteCharAt(capacityToSave.length()-1);
             briefRecord.setCapacity(capacityToSave.toString());
             briefRecordService.update(briefRecord);
             return acceptInfos;

@@ -2,31 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507a8eb7-5ef3-4869-b2e2-6cffb275b4e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_9_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/TestApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/loginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/surveyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/surveyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/criteria/SurveyCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/criteria/SurveyCriteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/BriefRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/BriefRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/CodeContrast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/CodeContrast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Option.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Question.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/ScoreContrast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/ScoreContrast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SearchAccept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SearchAccept.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SummaryPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Survey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Survey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SurveyAccept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SurveyAccept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/generateUrl/GenerateUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/generateUrl/GenerateUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/AdminRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/BriefRecordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/BriefRecordRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/CodeContrastRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/CodeContrastRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/OptionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/OptionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/QuestionRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/RecordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/RecordRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/ScoreContrastRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/ScoreContrastRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/StaffRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/StaffRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/SurveyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/SurveyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/AdminService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/BriefRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/BriefRecordService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/CodeContrastService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/CodeContrastService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/OptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/OptionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/QuestionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/RecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/RecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/ScoreContrastService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/ScoreContrastService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/StaffService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/StaffService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/SurveyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/SurveyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/token/MyToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/token/MyToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webTest.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,47 +57,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/SurveyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/generateUrl/GenerateUrl.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="125" column="21" lean-forward="true" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Survey.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/AdminService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/criteria/SurveyCriteria.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="260">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,20 +80,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/loginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="390">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="300">
+              <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Admin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webTest.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/ScoreContrast.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/TestApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,50 +142,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/surveyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#2033#2034#0" expanded="true" />
-                <element signature="e#2086#2087#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/RecordService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            <state relative-caret-position="330">
+              <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/QuestionService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/config/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-              <folding>
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/token/MyToken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="450">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -176,6 +174,8 @@
     <findStrings>
       <find>redis</find>
       <find>totalpage</find>
+      <find>SearchAc</find>
+      <find>currentPage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,57 +184,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/test/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/test/entity/Option.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/test/repository/OptionRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/test/repository/QuestionRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/QuestionRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/testController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/SurveyCriteria.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/AdminRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/requestBean/SubmitBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Admin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/AdminService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/config/JacksonConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/CodeContrast.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/CodeContrastRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Option.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/tools/JsonUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/OptionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/Record.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/BriefRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/ScoreContrast.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/ScoreContrast.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/RecordRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/RecordService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/loginController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/generateUrl/GenerateUrl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Question.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/QuestionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/ScoreContrastRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/ScoreContrastService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/SurveyRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SurveyAccept.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/CodeContrastService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/BriefRecord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SearchAccept.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/surveyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SummaryPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Staff.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/BriefRecordRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/StaffRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/StaffService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/BriefRecordService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/token/MyToken.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/SurveyService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Survey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/loginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/criteria/SurveyCriteria.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/BriefRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Admin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/CodeContrast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Option.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Question.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/ScoreContrast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SearchAccept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Staff.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SummaryPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Survey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/AdminRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/BriefRecordRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/CodeContrastRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/OptionRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/QuestionRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/RecordRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/ScoreContrastRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/StaffRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/SurveyRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/BriefRecordService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/CodeContrastService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/OptionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/QuestionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/RecordService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/ScoreContrastService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/StaffService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/token/MyToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/generateUrl/GenerateUrl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/surveyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/TestApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/SurveyService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -244,6 +244,22 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="100" />
@@ -259,6 +275,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,37 +347,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sinoyd" type="462c0819:PsiDirectoryNode" />
               <item name="survey" type="462c0819:PsiDirectoryNode" />
-              <item name="criteria" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinoyd" type="462c0819:PsiDirectoryNode" />
-              <item name="survey" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinoyd" type="462c0819:PsiDirectoryNode" />
-              <item name="survey" type="462c0819:PsiDirectoryNode" />
-              <item name="generateUrl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinoyd" type="462c0819:PsiDirectoryNode" />
-              <item name="survey" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webTest" type="b2602c69:ProjectViewProjectNode" />
@@ -376,24 +364,12 @@
               <item name="webTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinoyd" type="462c0819:PsiDirectoryNode" />
-              <item name="survey" type="462c0819:PsiDirectoryNode" />
-              <item name="token" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,7 +381,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546592992870" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547199252804" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -462,19 +439,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sinoyd.survey.service.QuestionService" />
-      <module name="webTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sinoyd.survey.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ScoreContrastService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sinoyd.survey.service.ScoreContrastService" />
       <module name="webTest" />
@@ -494,6 +458,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sinoyd.survey.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinoyd.survey.entity.test" />
+      <module name="webTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinoyd.survey.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -537,10 +514,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.TestApplication (1)" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.SurveyService" />
         <item itemvalue="Application.ScoreContrastService" />
         <item itemvalue="Application.BriefRecord" />
-        <item itemvalue="Application.QuestionService" />
       </list>
     </recent_temporary>
   </component>
@@ -555,18 +532,21 @@
       <option name="presentableId" value="Default" />
       <updated>1546043601370</updated>
       <workItem from="1546043605173" duration="27262000" />
-      <workItem from="1546389229796" duration="71430000" />
+      <workItem from="1546389229796" duration="72282000" />
+      <workItem from="1546820381856" duration="20110000" />
+      <workItem from="1547437068759" duration="917000" />
+      <workItem from="1547523450983" duration="4513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98692000" />
+    <option name="totallyTimeSpent" value="125084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.23714653" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.1992288" />
       <window_info id="Structure" order="1" sideWeight="0.50067294" side_tool="true" weight="0.23714653" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -576,7 +556,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" visible="true" weight="0.243607" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.27725437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39703903" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -585,14 +565,14 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50064266" side_tool="true" weight="0.3243607" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.61103636" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2920592" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32969153" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -605,256 +585,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/ScoreContrastRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.9.RELEASE/spring-data-jpa-1.11.9.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/OptionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/CodeContrastRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/AdminRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" column="92" lean-forward="true" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/QuestionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="120" column="80" lean-forward="true" selection-start-line="120" selection-start-column="80" selection-end-line="120" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/RecordRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.9.RELEASE/spring-data-commons-1.13.9.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/OptionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/CodeContrast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Option.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/SecurityConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/TestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/SurveyRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/CodeContrastService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/ScoreContrastService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SurveyAccept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SearchAccept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/ScoreContrast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SummaryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/BriefRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,100 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Staff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/ScoreContrastRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/StaffRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/BriefRecordRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/StaffService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/BriefRecordService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -990,70 +634,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/criteria/SurveyCriteria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="100">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/loginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/BriefRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/token/MyToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/RecordService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/QuestionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-          <folding>
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/generateUrl/GenerateUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="25">
+          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/SurveyService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/CodeContrast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Option.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SearchAccept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1062,34 +720,332 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Survey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="-325">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/criteria/SurveyCriteria.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SurveyAccept.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="-25">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/AdminRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/CodeContrastRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/OptionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/QuestionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/RecordRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/ScoreContrastRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/StaffRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/SurveyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/CodeContrastService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/OptionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/RecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/ScoreContrastService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/StaffService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar!/io/jsonwebtoken/SignatureAlgorithm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/SummaryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/BriefRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/repository/BriefRecordRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/generateUrl/GenerateUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/token/MyToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/SurveyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="197" column="37" selection-start-line="197" selection-start-column="37" selection-end-line="197" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getResult#0;class#SurveyService#0" />
+            <element signature="method#levelContrast#0;class#SurveyService#0" />
+            <element signature="method#convert#0;class#SurveyService#0" />
+            <element signature="method#summary#0;class#SurveyService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webTest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/ScoreContrast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/entity/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/TestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="125" column="21" lean-forward="true" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/loginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sinoyd/survey/controller/surveyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="330">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#2033#2034#0" expanded="true" />
-            <element signature="e#2086#2087#0" expanded="true" />
           </folding>
         </state>
       </provider>

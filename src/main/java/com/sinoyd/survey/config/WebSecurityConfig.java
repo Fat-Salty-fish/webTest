@@ -15,8 +15,6 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Configuration
 @EnableWebSecurity//(debug = true)
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-
-
 // --------  the way of two --------
 //在yml未见配置security
 

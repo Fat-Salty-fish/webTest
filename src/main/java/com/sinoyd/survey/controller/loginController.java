@@ -1,10 +1,4 @@
-/**
- * @Description 用于接收登录请求并且返回一个token
- * @auther 李忠杰
- * @create 2018-12-27 13:43
- */
 package com.sinoyd.survey.controller;
-
 import com.sinoyd.survey.entity.Admin;
 import com.sinoyd.survey.service.AdminService;
 import com.sinoyd.survey.token.MyToken;
@@ -14,13 +8,18 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @Description 用于接收登录请求并且返回一个token
+ * @auther 李忠杰
+ * @create 2018-12-27 13:43
+ */
 @RestController
 @RequestMapping("/api")
 public class loginController {
     @Autowired
     private AdminService adminService ;
 
-
+    //用户登录接口
     @PostMapping("login")
     public Object adminLogin(@RequestBody Admin admin) {
         try {

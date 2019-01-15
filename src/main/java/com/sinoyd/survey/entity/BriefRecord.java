@@ -1,16 +1,14 @@
-/**
- * @Description
- * @auther 李忠杰
- * @create 2018-12-29 16:59
- */
 package com.sinoyd.survey.entity;
-
 import lombok.Data;
-
 import javax.persistence.*;
 import java.util.Date;
 import java.util.Map;
 
+/**
+ * @Description 简要信息 每次答题都会生成 同时保存各个能力的成绩以及要展示的能力
+ * @auther 李忠杰
+ * @create 2018-12-29 16:59
+ */
 @Entity
 @Table(name = "brief")
 @Data

@@ -1,13 +1,11 @@
 package com.sinoyd.survey.criteria;
-
 import com.sinoyd.frame.base.util.BaseCriteria;
 import com.sinoyd.frame.base.util.StringUtils;
 import lombok.Data;
-
 import java.util.Date;
 
 /**
- * @Description
+ * @Description 实现模糊检索和分页搜索功能
  * @auther 李忠杰
  * @create 2018-12-27 15:42
  */

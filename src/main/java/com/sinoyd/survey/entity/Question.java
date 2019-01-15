@@ -1,8 +1,3 @@
-/**
- * @Description 这个类描述了题目 包括一个选项list 用来保存每个题目下的选项
- * @auther 李忠杰
- * @create 2018-12-28 8:41
- */
 package com.sinoyd.survey.entity;
 import com.sinoyd.frame.base.entity.BaseEntity;
 import lombok.Data;
@@ -12,6 +7,11 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 
+/**
+ * @Description 这个类描述了题目 包括一个选项list 用来保存每个题目下的选项
+ * @auther 李忠杰
+ * @create 2018-12-28 8:41
+ */
 @Entity
 @Table(name = "questions")
 @Data

@@ -1,18 +1,15 @@
+package com.sinoyd.survey.entity;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.sinoyd.frame.base.entity.BaseEntity;
+import lombok.Data;
+import javax.persistence.*;
+import java.util.Date;
+
 /**
  * @Description 这个类描述了每个题目下的选项
  * @auther 李忠杰
  * @create 2018-12-28 8:54
  */
-package com.sinoyd.survey.entity;
-
-
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.sinoyd.frame.base.entity.BaseEntity;
-import lombok.Data;
-
-import javax.persistence.*;
-import java.util.Date;
-
 @Entity
 @Table(name = "options")
 @Data

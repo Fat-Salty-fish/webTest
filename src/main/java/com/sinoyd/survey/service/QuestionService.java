@@ -1,18 +1,15 @@
+package com.sinoyd.survey.service;
+import com.sinoyd.survey.entity.Question;
+import com.sinoyd.survey.repository.QuestionRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import java.util.List;
+
 /**
  * @Description 有关question的业务类 实现question的获取等功能
  * @auther 李忠杰
  * @create 2018-12-28 9:01
  */
-package com.sinoyd.survey.service;
-
-import com.sinoyd.survey.entity.Question;
-import com.sinoyd.survey.repository.OptionRepository;
-import com.sinoyd.survey.repository.QuestionRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
-
 @Service
 public class QuestionService {
 

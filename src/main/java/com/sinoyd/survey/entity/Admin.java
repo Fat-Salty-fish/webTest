@@ -1,15 +1,13 @@
-/**
- * @Description 管理员登录信息 id 用户名 密码 创建时间
- * @auther 李忠杰
- * @create 2018-12-27 11:50
- */
 package com.sinoyd.survey.entity;
-
 import lombok.Data;
-
 import javax.persistence.*;
 import java.util.Date;
 
+/**
+ * @Description 管理员登录信息
+ * @auther 李忠杰
+ * @create 2018-12-27 11:50
+ */
 @Entity
 @Table(name = "users")
 @Data

@@ -1,9 +1,7 @@
 package com.sinoyd.survey.entity;
-
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
 import lombok.Setter;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,6 +17,6 @@ public class SummaryPage {
     private Integer currentPage = 0;      //待显示页面
     private Long count = 0L;      //消息条数
     private Integer limit = 10;     //每页显示条数 默认10条
-    private List<SearchAccept> searchAcceptList;
-    private String message;
+    private List<SearchAccept> searchAcceptList;    //搜索得到的数据
+    private String message;     //在错误时显示的信息 未发生错误时返回为空
 }

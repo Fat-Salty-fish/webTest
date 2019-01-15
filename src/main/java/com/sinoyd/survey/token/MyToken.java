@@ -1,22 +1,20 @@
-/**
- * @Description 用来生成Token以及解析Token
- * @auther 李忠杰
- * @create 2018-12-27 14:07
- */
 package com.sinoyd.survey.token;
-
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.apache.tomcat.util.codec.binary.Base64;
-
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @Description 用来生成Token以及解析Token
+ * @auther 李忠杰
+ * @create 2018-12-27 14:07
+ */
 public class MyToken {
 
     private static final String TOKEN_KEY = "sinoyd";               //用这个StringKey来作为密文进行测试

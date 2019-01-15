@@ -1,16 +1,14 @@
-/**
- * @Description
- * @auther 李忠杰
- * @create 2018-12-29 14:57
- */
 package com.sinoyd.survey.entity;
-
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
-
 import javax.persistence.*;
 import java.util.Date;
 
+/**
+ * @Description 问卷记录 记录每次做题的选择结果以及得分等信息
+ * @auther 李忠杰
+ * @create 2018-12-29 14:57
+ */
 @Entity
 @Table(name = "record")
 @Data
